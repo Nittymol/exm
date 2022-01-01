@@ -1,8 +1,8 @@
-var number = 9;
-if (number > 10) {
-    console.log("The number is Greater than 10");
+var a = prompt("Enter the no.")
+a = parseInt(a);
+if(a>10){
+console.log("Number is greater than 10")
 }
-
-else {
-     console.log("The number is less than 10");
+else{
+console.log("Number is not greater than 10")
 }
