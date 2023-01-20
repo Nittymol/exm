@@ -82,17 +82,17 @@ input[type=submit] {
 </style>
 </head>
 <body>
-<center><h1>Welcome To Hospital Management System.</h1></center>
+<center><h1>Login Page</h1></center>
 <form action="logins" method="post">
-    {% csrf_token %}
+   
 
 
 
 <div class="container">
    <h1>Login</h1>
   <form action="/action_page.php">
-    <label for="username">Username</label>
-    <input type="text" id="username" name="username" required>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" required>
 
     <label for="password">Password</label>
     <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
